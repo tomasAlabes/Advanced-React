@@ -17,7 +17,8 @@
     },
     "production": {
       "presets": [
-        "next/babel"
+        "next/babel",
+        "@zeit/next-typescript/babel"
       ],
       "plugins": [
         [
@@ -38,7 +39,8 @@
               "modules": "commonjs"
             }
           }
-        ]
+        ],
+        "@zeit/next-typescript/babel",
       ],
       "plugins": [
         [
